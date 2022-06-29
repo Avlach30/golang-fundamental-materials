@@ -16,4 +16,7 @@ func main() {
 	fmt.Println("Ahmad")
 	fmt.Println("Ahmad Khoirul")
 	fmt.Println("Ahmad Khoirul Muslimin")
+	println("=======")
+	fmt.Println("Length characters of 'Ahmad': ", len("Ahmad"))
+	//* len() for count length of data source in parameters
 }
