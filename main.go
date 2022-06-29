@@ -10,4 +10,8 @@ func main() {
 	fmt.Println(firstNum + secondNum)
 	fmt.Println(secondNum % firstNum)
 	fmt.Println(-10) //* Define negative number value
+	println("======")
+	//* Define comparation operator, returned bool value
+	fmt.Println(firstNum != secondNum)
+	fmt.Println(firstNum == secondNum)
 }
