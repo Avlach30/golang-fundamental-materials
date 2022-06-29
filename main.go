@@ -11,4 +11,9 @@ func main() {
 	//* Define boolean data type, true or false
 	fmt.Println("True: ", true)
 	fmt.Println("False: ", false)
+	println("=======")
+	//* Define string data types
+	fmt.Println("Ahmad")
+	fmt.Println("Ahmad Khoirul")
+	fmt.Println("Ahmad Khoirul Muslimin")
 }
