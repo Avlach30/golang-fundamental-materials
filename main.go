@@ -7,12 +7,16 @@ func main() {
 
 	name = "Ahmad Muzakki" //* Reassign existing variable
 	fmt.Println(name)
-	println("========")
 	name = "Ahmad Sujancok"
 	fmt.Println(name)
-
+	println("========")
 	var address = "Diponegoro street 5" //* Declarating variable without data type
 	fmt.Println(address)
 	address = "Pattimura 77"
 	fmt.Println(address)
+	println("========")
+	country := "Indonesia" //* Declarating varriable withour var keyword and data type
+	fmt.Println(country)
+	country = "Iceland"
+	println(country)
 }
