@@ -19,4 +19,12 @@ func main() {
 	fmt.Println(country)
 	country = "Iceland"
 	println(country)
+	println("=========")
+	//* Declarating multiple variable directly
+	var (
+		student1 = "Andra"
+		student2 = "Bobby"
+	)
+	fmt.Println(student1)
+	fmt.Println(student2)
 }
