@@ -31,4 +31,12 @@ func main() {
 	//* Declarating constant in go, constant value can't reassign
 	const phi = 3.14
 	fmt.Println(phi)
+	println("========")
+	//* Declarating multiple constant directly
+	const (
+		circleRadius float32 = 12
+		circleWide = phi * (circleRadius * circleRadius)
+	)
+	fmt.Println(circleRadius)
+	fmt.Println(circleWide)
 }
