@@ -27,4 +27,8 @@ func main() {
 	)
 	fmt.Println(student1)
 	fmt.Println(student2)
+	println("*********")
+	//* Declarating constant in go, constant value can't reassign
+	const phi = 3.14
+	fmt.Println(phi)
 }
